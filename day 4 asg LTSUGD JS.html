@@ -1,0 +1,57 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var students=[
+	{
+		name:"ashok",
+		age:20,
+		Dep:"CSE",
+		cgpa:8.5
+	},
+	{
+		name:"arjun",
+		age:20,
+		Dep:"ECE",
+		cgpa:7.5
+	},
+	{
+		name:"krishna",
+		age:20,
+		Dep:"MECH",
+		cgpa:8.1
+	},
+	{
+		name:"Ismail",
+		age:20,
+		Dep:"EEE",
+		cgpa:7.3
+	},
+	{
+		name:"George",
+		age:20,
+		Dep:"EEE",
+		cgpa:8.9
+	},
+]
+console.log("USING FOR LOOP");
+for(var i=0;i<5;i++)
+{
+	console.log(students[i].name);
+	console.log(students[i].Dep);
+}
+
+console.log("USING FOREACH");
+
+students.forEach(function(a,i){
+	console.log(a.name);
+	console.log(a.cgpa);
+}
+)
+
+</script>
+</body>
+</html>
+
